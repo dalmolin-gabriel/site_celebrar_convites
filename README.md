@@ -21,5 +21,9 @@ O projeto é publicado como Worker com arquivos estáticos. No painel da Cloudfl
 - **Deploy command:** `npx wrangler deploy`
 - **Branch de produção:** o branch que contém este código
 
+Domínios: `convitescelebrar.com.br` e `www.convitescelebrar.com.br` (configurados em
+`routes` no `wrangler.jsonc`; a Cloudflare cria o DNS e o certificado automaticamente).
+O endereço `site-celebrar-convites.gabrieldalmolin06.workers.dev` continua ativo.
+
 > As imagens atuais foram recortadas de um print do Instagram e estão em baixa resolução.
 > Substitua pelos arquivos originais mantendo os mesmos nomes em `public/assets/img/`.
